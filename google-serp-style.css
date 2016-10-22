@@ -9,6 +9,7 @@ header {
 	height: 70px;
 	width: 100%;
 	display: inline-block;
+	margin-top: -15px;
 }
 .header-left {
 	float: left;
