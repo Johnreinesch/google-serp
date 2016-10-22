@@ -50,6 +50,7 @@ form input {
 	height: 35px;
 	width: 600px;
 	font-size: 15px;
+	border: 1px solid #fff;
 }
 form button {
 	height: 40px;
@@ -163,7 +164,14 @@ a {
 }
 .adwords-list {
 	list-style-type: none;
+
 }
 .adwords {
 	padding-left: 90px;
+}
+.ad-url {
+	padding-bottom:
+}
+.ad-description: {
+	padding-bottom: 
 }
