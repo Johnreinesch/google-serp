@@ -9,23 +9,20 @@ header {
 	height: 70px;
 	width: 100%;
 	display: inline-block;
-	margin-top: -15px;
-	z-index: 1;
 }
 .header-left {
 	float: left;
-	margin-right: 10px;
+	margin-right: 15px;
 }
 .header-center {
 	padding-top: 15px;
-
+	float:left;
 	position: relative;
-	z-index: 1000;
 }
 .header-right {
 	float: right;
 	position: relative;
-	z-index: 5000;
+	padding-top: 5px;
 	
 }
 .header-right li {
@@ -59,7 +56,78 @@ form input {
 .url-row {
 	display: inline-block;
 }
-
+.menu {
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 5px;
+	padding-left: 55px;
+}
+.menu li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+	padding-left: 20px;
+}
+.menu a {
+	color: #777;
+}
+.menu li button {
+	background-color: white;
+	border: 0px;
+	color: #777;
+}
+.menu li button:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	padding: 4px 8px;
+}
+.menu-left {
+	float: left;
+}
+.menu-right {
+	float: right;
+}
+.mn-dwn-arw {
+	border-width: 5px 4px 0 4px !important;
+    border-color: #909090 transparent;	
+	border-style: solid;
+	width: 0;
+    height: 0;
+    margin-left: -2px;
+    top: 50%;
+    margin-top: -2px;
+    position: absolute;
+	color: #777;
+}
+.number-of-results {
+	color: #808080;
+	margin-left: 120px;
+}
+.ad {
+	background-color: #59946b;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-radius: 3px;
+}
+.title {
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+}
+.map-pack img {
+	height: 200px;
+    width: 643px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
 
 footer {
 	
