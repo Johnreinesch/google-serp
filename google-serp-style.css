@@ -1,6 +1,13 @@
 body {
 	font-family: arial,sans-serif;
 	font-size: small;
+	color: #545454;
+}
+a {
+	color: #1a0dab;
+}
+a:hover {
+	text-decoration: underline;
 }
 header {
 	background-color: #f1f1f1;
@@ -78,6 +85,9 @@ form button {
 }
 .menu a {
 	color: #777;
+}
+.menu a:hover {
+	text-decoration: none;
 }
 .menu li button {
 	background-color: white;
@@ -197,8 +207,74 @@ a {
 	padding-left: 90px;
 }
 .ad-url {
-	padding-bottom:
+	color: #006621;
+	font-size: 14px;
 }
-.ad-description: {
-	padding-bottom: 
+.phone {
+	color: #545454;
+}
+.organic {
+	width: 640px;
+	padding-left: 80px;
+}
+.organic-serp {
+	list-style-type: none;
+	border-bottom: 1px solid #666;
+	border-color: #e5e5e5;
+}
+.organic-url {
+	color: #006621;
+	font-size: 14px;
+}
+.meta {
+	padding-bottom: 20px;
+}
+.related-search {
+	width: 510px;
+	padding-left: 120px;
+}
+.related-search ul {
+	list-style-type: none;
+}
+.related-search ul li {
+	padding-bottom: 5px;
+}
+.related-search h3 {
+	color: #808080;
+	font-size: 18px;
+	padding-bottom: 7px;
+	font-weight: normal;
+	line-height: 18px;
+}
+.related-left {
+	float: left;
+}
+.related-right {
+	float: right;
+}
+.pagination ul {
+	list-style-type: none;
+}
+.pagination ul li {
+	display: inline-block;
+}
+footer {
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+    height: 75px;
+	width: 100%;
+}
+.footer-container {
+	padding-left: 100px;
+}
+.top-row {
+	padding-left: 20px;
+}
+.bottom-row ul {
+	list-style-type: none;
+	padding-left: 20px;
+}
+.bottom-row ul li {
+	display: inline-block;
+	padding-right: 20px;
 }
